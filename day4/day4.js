@@ -31,8 +31,8 @@ const checkRulesForFields = (passportData) => {
 
     // Devides array in key:value pairs 
     for(let i = 0; i < passData.length; i++ ){
-        let bla = passData[i].split(" ");
-        passDataSplit = passDataSplit.concat(bla)
+        let splitArray = passData[i].split(" ");
+        passDataSplit = passDataSplit.concat(splitArray)
     }
 
     passData = passDataSplit.filter(Boolean);
