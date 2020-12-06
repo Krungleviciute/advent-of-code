@@ -1,9 +1,4 @@
 import boardingInput from './input.js';
-const mockup = [
-    "BFFFBBFRRR",
-    "FFFBBBFRRR",
-    "BBFFBBFRLL"
-];
 
 const boardingPasses = boardingInput.split(/\r?\n/);
 const seatIDMultiplyer = 8;
