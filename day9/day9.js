@@ -67,7 +67,6 @@ const findSumPairs = (num, arrayOfNumbers) => {
 
 }
 
-// sumNumbers(40, 0, preamble)
 // Part 1
 findNumber(inputData);
 
